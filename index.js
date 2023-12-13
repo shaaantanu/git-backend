@@ -27,7 +27,7 @@ const server = app.listen(5000, ()=>{
 
 const io = socket(server, {
     cors: {
-        origin : "https://melodic-macaron-31f0d7.netlify.app",
+        origin : "https://chatme-zph8.onrender.com",
         credentials: true,
     },
 });
