@@ -27,7 +27,7 @@ const server = app.listen(5000, ()=>{
 
 const io = socket(server, {
     cors: {
-        origin : "http://localhost:3000",
+        origin : "https://melodic-macaron-31f0d7.netlify.app",
         credentials: true,
     },
 });
