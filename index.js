@@ -27,7 +27,7 @@ const server = app.listen(5000, ()=>{
 
 const io = socket(server, {
     cors: {
-        origin : "https://chatme-zph8.onrender.com",
+        origin : "https://chatmefrontend-cumdbv5co-shaaantanu.vercel.app",
         credentials: true,
     },
 });
